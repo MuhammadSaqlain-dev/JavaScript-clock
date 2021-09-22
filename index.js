@@ -26,5 +26,5 @@ window.onload = () => {
     document.getElementById("digital-clock").innerText = time;
   };
 
-  showTime();
+  setTimeout(showTime, 1500);
 };
